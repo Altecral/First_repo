@@ -1,0 +1,73 @@
+/*
+Author: Alejandro Manrique
+Date: 03-19-2023
+*/
+fieldset {
+  margin-bottom: 5%;
+}
+
+body {
+  background: #3c763d;
+  font-family: Arial, sans-serif;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.billing-m, .delivery-m {
+  background: #fff;
+  margin: 20px auto;
+  width: 50%;
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.bill1 {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bill1 input, select {
+  flex: 1;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+.bill1 label {
+  font-size: 14px;
+  font-weight: bold;
+  flex: 1;
+}
+
+input[type="submit"], button {
+  background-color: #3c763d;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover, button:hover {
+  background-color: #2e5b2e;
+}
+
+.invalid-field {
+  background-color: pink;
+}
